@@ -1,0 +1,34 @@
+.button-submit {
+    background: $button_color;
+    border-radius: 22px;
+    width: 106px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.05em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      color: $text_color_card_content;
+    }
+  }
+
+.back-to-page {
+  height: 34px;
+  width: 152px;
+  background-color: $view_all_our_courses_color;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+}

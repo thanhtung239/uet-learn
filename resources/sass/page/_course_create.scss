@@ -1,0 +1,46 @@
+.form-create-course {
+  .form-control {
+    color: $text_color_card_content;
+  }
+}
+
+.course-label {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.05px;
+  margin-bottom: 7px;
+}
+
+.appWrapper-Header-primaryButton {
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fc9807;
+  color: #fff;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.33;
+  letter-spacing: normal;
+  border-radius: 4px;
+  padding: 9.5px 20px;
+  text-decoration: none;
+  position: fixed;
+  right: 20px;
+}
+
+svg.appWrapper-Header-icon {
+  pointer-events: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.appWrapper-Header-icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
